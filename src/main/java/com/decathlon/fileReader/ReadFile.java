@@ -17,15 +17,14 @@ public class ReadFile {
 
         String[] arrayOfStr = filename.split("\\.", 2);
 
-        if (arrayOfStr[1].matches("txt")){
+        if (arrayOfStr[1].matches("txt")) {
             return readCsv(filename);
-        } else{
+        } else {
             return null;
         }
     }
 
     private static List<String> readCsv(String filename) throws IOException {
-
-        return Files.readAllLines(new File(filename).toPath(), Charset.defaultCharset() );
+        return Files.readAllLines(new File(filename).toPath(), Charset.defaultCharset());
     }
 }

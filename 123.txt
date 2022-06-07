@@ -1,6 +1,2 @@
-abc;adsasd;asdasdads;adsadsads
-123;456.5446;23312123
-hahah
-asd
-asd
-asd
+vienas;1;2;3;4;5;6;7;8;9;10
+du;1;2;3;4;5;6;7;8;9;10
